@@ -1,4 +1,7 @@
 
+---
+
+# 📄 README pour le **frontend**
 
 ```markdown
 # MyContacts - Frontend
@@ -8,7 +11,7 @@ Développée en **React.js**, déployée sur **Netlify**.
 
 ---
 
-## Fonctionnalités
+## 🚀 Fonctionnalités
 - Inscription avec auto-login.
 - Connexion / Déconnexion.
 - Gestion du token JWT (stocké localement).
@@ -18,7 +21,7 @@ Développée en **React.js**, déployée sur **Netlify**.
 
 ---
 
-## Installation
+## 📦 Installation
 
 Cloner le repo et installer les dépendances :
 
