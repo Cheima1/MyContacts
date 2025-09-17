@@ -97,6 +97,32 @@ PUT /api/contact/:id → Modifier un contact
 
 DELETE /api/contact/:id → Supprimer un contact
 
+## Tests unitaires (Jest)
+
+Le backend inclut une suite de tests unitaires et d’intégration avec Jest + Supertest + MongoDB Memory Server.
+
+### Installation des dépendances de test
+npm install --save-dev jest supertest mongodb-memory-server
+
+### Lancer les tests
+npm test
+
+## Contenu des tests
+
+- Auth (tests/auth.test.js)
+Création de compte (/api/auth/signup)
+Erreur si email déjà utilisé
+Connexion réussie (/api/auth/login) → renvoie un JWT
+Erreur si mauvais mot de passe ou champs manquants
+
+- Contacts (tests/contacts.test.js)
+Refus d’accès sans token (401 Unauthorized)
+Vérification de la validation (numéro de téléphone doit avoir 10 chiffres)
+Création d’un contact
+Récupération de la liste des contacts créés
+
+Les tests utilisent une base MongoDB en mémoire pour ne pas polluer ta vraie base de données.
+
 ## Header requis :
 
 Authorization: Bearer <token>
