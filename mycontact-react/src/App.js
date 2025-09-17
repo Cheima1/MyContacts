@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API_URL = "https://mycontacts-backend-egxx.onrender.com";
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:3000";
 
 function App() {
   // Connexion
