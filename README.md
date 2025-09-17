@@ -151,8 +151,8 @@ Affichage de la liste des contacts.
 
 ## Liens du back et du front déployés
 
-https://mycontacts-backend-egxx.onrender.com
-https://mycontacts-front.netlify.app/
+- https://mycontacts-backend-egxx.onrender.com
+- https://mycontacts-front.netlify.app/
 
 ## Licence
 
