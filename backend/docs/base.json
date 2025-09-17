@@ -1,0 +1,10 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "MyContacts API",
+        "version": "1.0.0",
+        "description": "API avec Swagger et Express"
+    },
+    "servers": [{ "url": "http://localhost:3000/api/" }],
+    "paths": {}
+}
