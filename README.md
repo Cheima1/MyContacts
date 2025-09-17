@@ -33,10 +33,10 @@ Développer une application web permettant de :
 ## Structure du projet
 
 MyContacts/
-│── backend/ # API Express (auth + contacts)
-│── mycontact-react/ # Frontend React
-│── .gitignore
-│── README.md # Ce fichier (global)
+- │── backend/ # API Express (auth + contacts)
+- │── mycontact-react/ # Frontend React
+- │── .gitignore
+- │── README.md # Ce fichier (global)
 
 
 Chaque dossier possède également son propre `README.md` pour plus de détails.
