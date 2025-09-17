@@ -11,7 +11,7 @@ const userRoutes = require('./routes/user.route');
 const app = express();
 
 app.use(cors({
-    origin: "http://localhost:3001",
+    origin: process.env.FRONTEND_ORIGIN,
     credentials: true
 }))
 app.use(express.json()); 
